@@ -1,6 +1,8 @@
 import streamlit as st
 import openai
 
+openai.api_key=st.secrets[open_ai_key]
+
 
 # Define neutral product features, benefits, pain points, and desires
 product_features = ["Voice control", "Touch screen interface", "Smart inventory management", "Recipe suggestions"]
